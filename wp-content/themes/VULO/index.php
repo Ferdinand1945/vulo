@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+<?php include 'menu-index.php'; ?>
+
 <?php include 'slider.php'; ?>
 <section class="smaller-section">
 <div class="container">
@@ -30,16 +32,16 @@
     <hr>
     <div class="row">
     <div class="col imgkunder">
-        <img src="http://localhost/vulo/wp-content/uploads/2018/01/gogreen_icon.png">
+        <img src="/vulo/wp-content/uploads/2018/01/gogreen_icon.png">
     </div>
         <div class="col imgkunder">
-            <img src="http://localhost/vulo/wp-content/uploads/2018/01/bandam_icon.png">
+            <img src="/vulo/wp-content/uploads/2018/01/bandam_icon.png">
     </div>
         <div class="col imgkunder">
-            <img src="http://localhost/vulo/wp-content/uploads/2018/01/kpop.png">
+            <img src="/vulo/wp-content/uploads/2018/01/kpop.png">
     </div>
         <div class="col imgkunder">
-            <img src="http://localhost/vulo/wp-content/uploads/2018/01/positiveyou.png">
+            <img src="/vulo/wp-content/uploads/2018/01/positiveyou.png">
     </div>
 
     </div>
