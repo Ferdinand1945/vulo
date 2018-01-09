@@ -24,9 +24,17 @@
        
                 </div>
                 <hr>
-                	<p>© 2017 Vu & Lopez HB - Innehar F-skattsedel</p>
                 
-                <div class="fb-like" data-href="https://www.facebook.com/vulo.se/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                    <div class="container">
+                        <div class="row">
+                    <div class="fb-like" data-href="https://www.facebook.com/vulo.se/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+                            
+                            <div class="right">© 2017 Vu & Lopez HB - Innehar F-skattsedel</div>
+                        
+                        </div>
+                
+                </div>
+        
             </div>
             
     </footer>
