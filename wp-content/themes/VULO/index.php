@@ -1,5 +1,11 @@
 <?php get_header(); ?>
 
+ <?php
+echo do_shortcode('[smartslider3 slider=1]');
+?>
+		</div>
+
+	<div class="container">
 	<div class="row">
 
 		<div class="">

@@ -28,14 +28,9 @@
 			<p class=""><?php echo get_bloginfo( 'description' ); ?></p>
 		</div>
 		<nav class="blog-nav">
-			<a class="blog-nav-item active" href="<?php echo get_bloginfo( 'wpurl' );?>">Home</a>
-			<?php wp_list_pages( '&title_li=' ); ?> |
+			<li><a class="blog-nav-item active" href="<?php echo get_bloginfo( 'wpurl' );?>">Home</a></li>
+			<?php wp_list_pages( '&title_li=' ); ?> 
             
 		</nav>
 	</div>
-		 <?php
-echo do_shortcode('[smartslider3 slider=1]');
-?>
-		</div>
-
-	<div class="container">
+		
