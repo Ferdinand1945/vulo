@@ -1,42 +1,18 @@
 <?php get_header(); ?>
-
- <?php
-echo do_shortcode('[smartslider3 slider=1]');
-?>
-		</div>
-
-	<div class="container">
-	<div class="row">
-
-		<div class="">
-
-			<?php 
-			if ( have_posts() ) : while ( have_posts() ) : the_post();
-  	
-				get_template_part( 'content', get_post_format() );
-  
-			endwhile; endif; 
-			?>
-
-		</div> <!-- /.blog-main -->
-
-	</div> <!-- /.row -->
-<nav>
-	<ul class="pager">
-		<li><?php next_posts_link( 'Previous' ); ?></li>
-		<li><?php previous_posts_link( 'Next' ); ?></li>
-	</ul>
-</nav>
- <div class="row">
+<?php include 'slider.php'; ?>
+<section>
+<div class="container">
     <div class="col">
       <h1>Vi bygger din hemsida</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus nisi maximus, pharetra nulla finibus, efficitur mi. Phasellus at ligula quis nunc varius rhoncus. Sed vitae justo at nisl ornare fermentum at sit amet leo. Donec lobortis elementum faucibus. Vestibulum tempor nec justo in iaculis. Duis tellus mauris, c</p>
     </div>
     <div class="col">
-      2 of 2
+            <h1>Vi bygger din hemsida</h1>
+
+      	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus nisi maximus, pharetra nulla finibus, efficitur mi. Phasellus at ligula quis nunc varius rhoncus. Sed vitae justo at nisl ornare fermentum at sit amet leo. Donec lobortis elementum faucibus. Vestibulum tempor nec justo in iaculis. Duis tellus mauris, c</p>
     </div>
   </div>
-</div>
+ </section>
   <section class="diagonal">
     <div class="container">
     <h1>Digaonal Section</h1>  

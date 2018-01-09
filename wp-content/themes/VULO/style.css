@@ -562,8 +562,15 @@ border-color: #2196F3 transparent transparent #2196F3;
     color: white;
     text-align: left;
 }
+<<<<<<< HEAD
 hr {
     background-color: white;
  
 }
 
+=======
+.slider {
+  padding-top: 0px!important;
+}
+.col {display: inline-block!important;}
+>>>>>>> 99f8901b6f5d0c95ee9b5bca6efbb9f31439e631
