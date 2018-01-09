@@ -58,3 +58,7 @@ function custom_settings_page_setup() {
 }
 add_action( 'admin_init', 'custom_settings_page_setup' );
 
+function my_theme_scripts() {
+    wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.min.js', array( 'jquery' ), '1.0.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );

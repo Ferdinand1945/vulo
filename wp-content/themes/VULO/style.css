@@ -513,11 +513,23 @@ ul.social-buttons {
 
 .header {
   height: 60px;
-border-bottom: 1px solid;
+
 background-color: transparent;
  position: fixed;
   width: 100%;
+   transition: all 0.2s ease-in-out;
 }
+.header.active {
+  border-bottom: 1px solid #bbb;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+.header.active .blog-nav li a {color: #000;}
+.header.active .logo a, .header.active .logo p {color: #000;}
+
 .blog-nav{
   float: right;
   padding: 18px 0 0 0;
@@ -527,9 +539,14 @@ background-color: transparent;
   font-size: 15px;
   margin-right: 14px;
 }
+.blog-nav li a {
+  color:#fff;
+}
 .logo {
   float: left;
 }
+.logo a {color: #fff;}
+.logo p {color: #fff;}
 .container_2 {
   max-width: 800px;
   display: block;
@@ -563,7 +580,7 @@ border-color: #2196F3 transparent transparent #2196F3;
     color: white;
     text-align: left;
 }
-<<<<<<< HEAD
+
 hr {
     background-color: white;
  

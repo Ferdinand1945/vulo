@@ -9,6 +9,7 @@
 	<meta name="author" content="">
 
 	<title><?php echo get_bloginfo( 'name' ); ?> - <?php echo get_bloginfo( 'description' ); ?></title>
+	<script src="../js/jquery.min.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php echo get_bloginfo( 'template_directory' );?>/style.css" rel="stylesheet">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -17,6 +18,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 	<?php wp_head();?>
+	<script>
+	jQuery(window).on("scroll", function() {
+    if(jQuery(window).scrollTop() > 50) {
+        $(".header").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       jQuery(".header").removeClass("active");
+    }
+});
+	</script>
 </head>
 
 <body>
