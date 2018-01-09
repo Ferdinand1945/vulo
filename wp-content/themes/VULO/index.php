@@ -27,6 +27,24 @@
 <section>
 <div class="container">
  <h1>Några av våra kunder</h1>
+    <hr>
+    <div class="row">
+    <div class="col imgkunder">
+        <img src="http://localhost/vulo/wp-content/uploads/2018/01/gogreen_icon.png">
+    </div>
+        <div class="col imgkunder">
+            <img src="http://localhost/vulo/wp-content/uploads/2018/01/bandam_icon.png">
+    </div>
+        <div class="col imgkunder">
+            <img src="http://localhost/vulo/wp-content/uploads/2018/01/kpop.png">
+    </div>
+        <div class="col imgkunder">
+            <img src="http://localhost/vulo/wp-content/uploads/2018/01/positiveyou.png">
+    </div>
+
+    </div>
+    <hr>
  </div>
+    
 </section>
 <?php get_footer(); ?>

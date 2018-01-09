@@ -605,3 +605,11 @@ z-index: -1!important;
 }
 .noPaddingLeft {padding-left: 0px!important;}
 .noPaddingRight{padding-right: 0px!important;}
+
+.imgkunder img {
+    width: 70%;
+}
+
+.imgkunder {
+    text-align: center;
+}
