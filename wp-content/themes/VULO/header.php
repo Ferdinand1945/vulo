@@ -21,11 +21,23 @@
 	<script>
 	jQuery(window).on("scroll", function() {
     if(jQuery(window).scrollTop() > 50) {
-        $(".header").addClass("active");
+        jQuery(".header").addClass("active");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
        jQuery(".header").removeClass("active");
     }
+});
+	</script>
+	<script>
+	jQuery(function () {
+  count = 0;
+  wordsArray = ["hemsida", "webbservice", "branch", "idé"];
+  setInterval(function () {
+    count++;
+    jQuery("#word").fadeOut(400, function () {
+      jQuery(this).text(wordsArray[count % wordsArray.length]).fadeIn(400);
+    });
+  }, 2000);
 });
 	</script>
 </head>

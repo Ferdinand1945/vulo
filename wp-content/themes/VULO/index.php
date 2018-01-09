@@ -6,7 +6,7 @@
 
    <div class="row">
    <div class="col">
-      <h1>Vi bygger din hemsida</h1>
+      <h1>Vi bygger din <span id="word">hemsida</span></h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus nisi maximus, pharetra nulla finibus, efficitur mi. Phasellus at ligula quis nunc varius rhoncus. Sed vitae justo at nisl ornare fermentum at sit amet leo. Donec lobortis elementum faucibus. Vestibulum tempor nec justo in iaculis. Duis tellus mauris, cLorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus nisi maximus, pharetra nulla finibus, efficitur mi. Phasellus at ligula quis nunc varius rhoncus. Sed vitae justo at nisl ornare fermentum at sit amet leo. Donec lobortis elementum faucibus. Vestibulum tempor nec justo in iaculis. Duis tellus mauris, cLorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus nisi maximus, pharetra nulla finibus, efficitur mi. Phasellus at ligula quis nunc varius rhoncus. Sed vitae justo at nisl ornare fermentum at sit amet leo. Donec lobortis elementum faucibus. Vestibulum tempor nec justo in iaculis. Duis tellus mauris, c</p>
     </div>
     <div class="col">
