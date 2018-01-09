@@ -515,13 +515,16 @@ ul.social-buttons {
   height: 60px;
 border-bottom: 1px solid;
 background-color: transparent;
-  
+ 
 }
 .blog-nav{
   float: right;
+  padding: 18px 0 0 0;
 }
 .blog-nav li {
 	display: inline;
+  font-size: 15px;
+  margin-right: 14px;
 }
 .logo {
   float: left;
@@ -554,8 +557,5 @@ border-style: solid;
 border-width: 0 0 5rem 100vw;
 border-color: #2196F3 transparent transparent #2196F3;
  }
-.footer {
-    background-color: #212121;
-    color: white;
-    text-align: left;
-}
+
+
