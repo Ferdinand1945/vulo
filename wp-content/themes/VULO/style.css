@@ -596,3 +596,9 @@ z-index: -1!important;
 z-index: -1!important;
 }
 .smaller-section{padding: 100px 0;}
+
+.right {
+    text-align: right;
+}
+.noPaddingLeft {padding-left: 0px!important;}
+.noPaddingRight{padding-right: 0px!important;}
