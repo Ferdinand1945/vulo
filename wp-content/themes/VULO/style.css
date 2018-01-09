@@ -613,3 +613,10 @@ z-index: -1!important;
 .imgkunder {
     text-align: center;
 }
+.img-diagonal {
+  text-align: center;
+}
+.img-diagonal img{
+  width: 160px;
+  
+}

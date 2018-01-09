@@ -21,9 +21,14 @@
  </section>
   <section class="diagonal">
     <div class="container">
-    <h1>Digaonal Section</h1>  
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus nisi maximus, pharetra nulla finibus, efficitur mi. Phasellus at ligula quis nunc varius rhoncus. Sed vitae justo at nisl ornare fermentum at sit amet leo. Donec lobortis elementum faucibus. Vestibulum tempor nec justo in iaculis. Duis tellus mauris, consequat vel dolor sed, volutpat sollicitudin enim. Maecenas velit dolor, efficitur sagittis interdum ac, pellentesque et velit. Nulla odio erat, pharetra non posuere id, sollicitudin sed erat. Nulla vitae est ligula. Ut aliquam porta orci. Nulla faucibus leo in sapien finibus, vel egestas lorem varius.
-    </p>
+    <h1>Såhär funkar det</h1>  
+        <br><br>
+        <div class="row">
+            <div class="col img-diagonal"><img src="/vulo/wp-content/uploads/2018/01/037-placeholder.png"><br><br><p>Du behöver inte lämna din arbetsplats.</p></div>
+            <div class="col img-diagonal"><img src="/vulo/wp-content/uploads/2018/01/037-handshake.png"><br><br><p>Signera avtal via BankID.</p></div>
+            <div class="col img-diagonal"><img src="/vulo/wp-content/uploads/2018/01/037-growth.png"><br><br><p>Uppföjlining ingår alltid.</p></div>
+        </div>
+
     </div>
  </section>
 <section>
