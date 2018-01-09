@@ -2,7 +2,7 @@
 
 	<div class="row">
 
-		<div class="col-sm-8 blog-main">
+		<div class="">
 
 			<?php 
 			if ( have_posts() ) : while ( have_posts() ) : the_post();
@@ -14,8 +14,6 @@
 
 		</div> <!-- /.blog-main -->
 
-		<?php get_sidebar(); ?>
-
 	</div> <!-- /.row -->
 <nav>
 	<ul class="pager">
@@ -23,6 +21,15 @@
 		<li><?php previous_posts_link( 'Next' ); ?></li>
 	</ul>
 </nav>
+ <div class="row">
+    <div class="col">
+      <h1>Vi bygger din hemsida</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus nisi maximus, pharetra nulla finibus, efficitur mi. Phasellus at ligula quis nunc varius rhoncus. Sed vitae justo at nisl ornare fermentum at sit amet leo. Donec lobortis elementum faucibus. Vestibulum tempor nec justo in iaculis. Duis tellus mauris, c</p>
+    </div>
+    <div class="col">
+      2 of 2
+    </div>
+  </div>
 </div>
   <section class="diagonal">
     <div class="container">
@@ -31,5 +38,9 @@
     </p>
     </div>
  </section>
-
+<section>
+<div class="container">
+ <h1>Några av våra kunder</h1>
+ </div>
+</section>
 <?php get_footer(); ?>
