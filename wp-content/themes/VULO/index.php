@@ -2,7 +2,10 @@
 <?php include 'slider.php'; ?>
 <section>
 <div class="container">
-    <div class="col">
+   
+
+   <div class="row">
+   <div class="col">
       <h1>Vi bygger din hemsida</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus nisi maximus, pharetra nulla finibus, efficitur mi. Phasellus at ligula quis nunc varius rhoncus. Sed vitae justo at nisl ornare fermentum at sit amet leo. Donec lobortis elementum faucibus. Vestibulum tempor nec justo in iaculis. Duis tellus mauris, c</p>
     </div>
@@ -11,7 +14,10 @@
 
       	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus nisi maximus, pharetra nulla finibus, efficitur mi. Phasellus at ligula quis nunc varius rhoncus. Sed vitae justo at nisl ornare fermentum at sit amet leo. Donec lobortis elementum faucibus. Vestibulum tempor nec justo in iaculis. Duis tellus mauris, c</p>
     </div>
+  
   </div>
+  </div>
+ 
  </section>
   <section class="diagonal">
     <div class="container">
