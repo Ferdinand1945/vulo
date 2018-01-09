@@ -23,16 +23,19 @@
 
 	<div class="header">
 	<div class="container">
+		<div class="logo">
+		<h1 class=""><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
+			<p class=""><?php echo get_bloginfo( 'description' ); ?></p>
+		</div>
 		<nav class="blog-nav">
 			<a class="blog-nav-item active" href="<?php echo get_bloginfo( 'wpurl' );?>">Home</a>
 			<?php wp_list_pages( '&title_li=' ); ?> |
             
 		</nav>
 	</div>
-</div>
-	
-	<div class="container">
-		<div class="blog-header">
-			<h1 class="blog-title"><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
-			<p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
+		 <?php
+echo do_shortcode('[smartslider3 slider=1]');
+?>
 		</div>
+
+	<div class="container">
