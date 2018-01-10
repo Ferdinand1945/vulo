@@ -566,9 +566,9 @@ border-bottom: 2px solid #ecb52a;
  	border-bottom: 100px solid #ecb52a; 
   border-right: 100px solid transparent;
 position: absolute;
-margin-top: -100px;
+margin-top: -110px;
 content: '';
-border-width: 5rem 100vw;
+border-width: 6rem 100vw;
  }
 .diagonal:after {
 border-top: 110px solid #ecb52a;
@@ -576,7 +576,7 @@ border-left: 100px solid transparent;
 position: absolute;
 margin-top: 50px;
 content: '';
-border-width: 5rem 100vw;
+border-width: 6rem 100vw;
  }
 .footer {
     background-color: #212121;
