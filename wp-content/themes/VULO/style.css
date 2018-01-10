@@ -526,6 +526,20 @@ background-color: transparent;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
   z-index: 2;
 }
+.header-active {
+  height: 60px;
+
+background-color: transparent;
+ position: fixed;
+  width: 100%;
+   transition: all 0.2s ease-in-out;
+
+    background: rgba(0,0,0, .8);
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
 .header.active .blog-nav li a {color: #fff;}
 .header.active .logo a, .header.active .logo p {color: #fff;}
 
