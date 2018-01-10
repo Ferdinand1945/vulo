@@ -43,12 +43,14 @@
             <img src="/vulo/wp-content/uploads/2018/01/bandam_icon.png">
     </div>
         <div class="col imgkunder">
-            <img src="/vulo/wp-content/uploads/2018/01/kpop.png">
+            <img src="/vulo/wp-content/uploads/2018/01/kpop.png" style="width: 50%; margin-top: 18px;">
     </div>
         <div class="col imgkunder">
             <img src="/vulo/wp-content/uploads/2018/01/positiveyou.png">
     </div>
-
+<div class="col imgkunder">
+            <img src="/vulo/wp-content/uploads/2018/01/bluestar.png">
+    </div>
     </div>
     <hr>
  </div>
