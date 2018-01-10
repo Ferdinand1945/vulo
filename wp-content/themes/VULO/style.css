@@ -563,20 +563,20 @@ border-bottom: 2px solid #ecb52a;
  	background: #ecb52a;
 }
 .diagonal:before {
- 	position: absolute;
- 	margin-top: -100px;
- 	content: '';
- 	border-style: solid;
-	border-width: 0 0 5rem 100vw;
-	border-color: transparent #ecb52a #ecb52a transparent;
+ 	border-bottom: 100px solid #ecb52a; 
+  border-right: 100px solid transparent;
+position: absolute;
+margin-top: -100px;
+content: '';
+border-width: 5rem 100vw;
  }
 .diagonal:after {
- 	position: absolute;
+border-top: 110px solid #ecb52a;
+border-left: 100px solid transparent;
+position: absolute;
 margin-top: 50px;
 content: '';
-border-style: solid;
-border-width: 0 0 5rem 100vw;
-border-color: #ecb52a transparent transparent #ecb52a;
+border-width: 5rem 100vw;
  }
 .footer {
     background-color: #212121;
