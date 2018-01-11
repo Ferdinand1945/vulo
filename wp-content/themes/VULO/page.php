@@ -29,9 +29,26 @@
 
     </div>
  </section>
-<section>
+<div class="padding-m" style="background-color:#212121;">
+    <div class="container">
 
+   <div class="row">
+   <div class="col" style="margin-top:100px; text-align:center; color: #fff;">
+      <h1>Låt oss göra ett projekt ihop!</h1>
+     <br>
+     <h4>info@vulo.se</h4>
+     <h4>+46 7007 123 45</h4>
+    </div>
+    <div class="col">
+      	
+      <?php echo do_shortcode( '[contact-form-7 id="24" title="Untitled"]' ); ?>
+    </div>
+  
+  </div>
+  </div>
     
-</section>
-
+</div>
+<div>
+<?php echo do_shortcode("[huge_it_maps id='1']"); ?>
+</div>
 <?php get_footer(); ?>
