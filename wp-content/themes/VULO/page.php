@@ -10,12 +10,26 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus nisi maximus, pharetra nulla finibus, efficitur mi. Phasellus at ligula quis nunc varius rhoncus. Sed vitae justo at nisl ornare fermentum at sit amet leo. Donec lobortis elementum faucibus. Vestibulum tempor nec justo in iaculis. Duis tellus mauris, cLorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus nisi maximus, pharetra nulla finibus, efficitur mi. Phasellus at ligul</p>
     </div>
     <div class="col">
+        <div class="picEffect">
+            <div class="overlay"><img src="/vulo/wp-content/uploads/2018/01/square-linkedin-256.png"><br><br><h3>Michael Vu</h3></div>
         <img style="width: 100%; width:230px; display:inline-block;" src="/vulo/wp-content/uploads/2018/01/mike.png">
-        <img style="width: 100%; width:230px; display:inline-block;" src="/vulo/wp-content/uploads/2018/01/fernando.png">    </div>
+            </div>
+        <div class="picEffect">
+            <div class="overlay"><img src="/vulo/wp-content/uploads/2018/01/square-linkedin-256.png"><br><br><h3>Fernando Lopez</h3></div>
+        <img style="width: 100%; width:230px; display:inline-block;" src="/vulo/wp-content/uploads/2018/01/fernando.png">
+        </div>
+       </div>
   
   </div>
   </div>
- 
+ <script>
+     
+    
+    jQuery('.picEffect').on('mouseover',function(){ jQuery(this).find('.overlay').stop().fadeIn();
+});
+       jQuery('.picEffect').mouseout(function(){ jQuery(this).find('.overlay').stop().fadeOut();
+});
+    </script>
  </section>
   <section class="diagonal">
     <div class="container">

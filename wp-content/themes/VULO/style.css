@@ -644,3 +644,20 @@ z-index: -1!important;
 .wpcf7-form {
   color: #fff;
 }
+.picEffect {
+  background-color: rgba(0,0,0, .7);
+  display:inline-block; 
+}
+.overlay {
+display: none;
+position: absolute;
+width: 230px;
+height: 521px;
+background-color: rgba(0,0,0, .7);
+  text-align: center;
+  color: #fff;
+}
+.overlay img {
+  width: 80px;
+  margin-top:60%;
+}
